@@ -56,6 +56,7 @@ function createTaskElem(task) {
         taskList.removeChild(li);
     });
 
+
     checkbox.addEventListener("click", function () {
         if (checkbox.checked) {
             span.style.textDecoration = "line-through";
