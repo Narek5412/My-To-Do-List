@@ -48,8 +48,6 @@ function createTaskElem(task) {
     deleteButton.className = "deleteTask";
     li.appendChild(deleteButton);
 
-
-
     taskList.appendChild(li);
 
 
